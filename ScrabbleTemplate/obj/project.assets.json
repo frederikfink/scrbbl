@@ -163,11 +163,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\_dev\\fsharp assignments\\ScrabbleTemplate\\ScrabbleTemplate\\ScrabbleTemplate.fsproj",
+      "projectUniqueName": "C:\\_dev\\scrbl\\ScrabbleTemplate\\ScrabbleTemplate.fsproj",
       "projectName": "ScrabbleTemplate",
-      "projectPath": "C:\\_dev\\fsharp assignments\\ScrabbleTemplate\\ScrabbleTemplate\\ScrabbleTemplate.fsproj",
+      "projectPath": "C:\\_dev\\scrbl\\ScrabbleTemplate\\ScrabbleTemplate.fsproj",
       "packagesPath": "C:\\Users\\O_o\\.nuget\\packages\\",
-      "outputPath": "C:\\_dev\\fsharp assignments\\ScrabbleTemplate\\ScrabbleTemplate\\obj\\",
+      "outputPath": "C:\\_dev\\scrbl\\ScrabbleTemplate\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\O_o\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -184,8 +184,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\_dev\\fsharp assignments\\ScrabbleTemplate\\ScrabbleBot\\ScrabbleBot.fsproj": {
-              "projectPath": "C:\\_dev\\fsharp assignments\\ScrabbleTemplate\\ScrabbleBot\\ScrabbleBot.fsproj"
+            "C:\\_dev\\scrbl\\ScrabbleBot\\ScrabbleBot.fsproj": {
+              "projectPath": "C:\\_dev\\scrbl\\ScrabbleBot\\ScrabbleBot.fsproj"
             }
           }
         }
@@ -234,8 +234,8 @@
     {
       "code": "NU1101",
       "level": "Error",
-      "message": "Unable to find package ScrabbleServer. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
-      "libraryId": "ScrabbleServer",
+      "message": "Unable to find package Oxyphenbutazone. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Oxyphenbutazone",
       "targetGraphs": [
         "net5.0"
       ]
@@ -243,8 +243,8 @@
     {
       "code": "NU1101",
       "level": "Error",
-      "message": "Unable to find package Oxyphenbutazone. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
-      "libraryId": "Oxyphenbutazone",
+      "message": "Unable to find package ScrabbleServer. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "ScrabbleServer",
       "targetGraphs": [
         "net5.0"
       ]

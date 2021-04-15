@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_dev\\fsharp assignments\\ScrabbleTemplate\\ScrabbleBot\\ScrabbleBot.fsproj": {}
+    "C:\\_dev\\scrbl\\ScrabbleBot\\ScrabbleBot.fsproj": {}
   },
   "projects": {
-    "C:\\_dev\\fsharp assignments\\ScrabbleTemplate\\ScrabbleBot\\ScrabbleBot.fsproj": {
+    "C:\\_dev\\scrbl\\ScrabbleBot\\ScrabbleBot.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_dev\\fsharp assignments\\ScrabbleTemplate\\ScrabbleBot\\ScrabbleBot.fsproj",
+        "projectUniqueName": "C:\\_dev\\scrbl\\ScrabbleBot\\ScrabbleBot.fsproj",
         "projectName": "YourIdGoesHere",
-        "projectPath": "C:\\_dev\\fsharp assignments\\ScrabbleTemplate\\ScrabbleBot\\ScrabbleBot.fsproj",
+        "projectPath": "C:\\_dev\\scrbl\\ScrabbleBot\\ScrabbleBot.fsproj",
         "packagesPath": "C:\\Users\\O_o\\.nuget\\packages\\",
-        "outputPath": "C:\\_dev\\fsharp assignments\\ScrabbleTemplate\\ScrabbleBot\\obj\\",
+        "outputPath": "C:\\_dev\\scrbl\\ScrabbleBot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\O_o\\AppData\\Roaming\\NuGet\\NuGet.Config",
