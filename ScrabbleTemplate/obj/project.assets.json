@@ -1,0 +1,253 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "FParsec/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "4.3.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/FParsec.dll": {},
+          "lib/netstandard2.0/FParsecCS.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FParsec.dll": {},
+          "lib/netstandard2.0/FParsecCS.dll": {}
+        }
+      },
+      "FSharp.Core/5.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/FSharp.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FSharp.Core.dll": {}
+        },
+        "resource": {
+          "lib/netstandard2.0/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.0/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.0/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.0/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.0/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.0/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.0/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.0/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.0/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.0/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.0/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/netstandard2.0/FSharp.Core.xml": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "FSharp.Core.xml"
+          }
+        }
+      },
+      "YourIdGoesHere/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "FParsec": "1.1.1",
+          "FSharp.Core": "5.0.1",
+          "ScrabbleServer": "1.0.7"
+        },
+        "compile": {
+          "bin/placeholder/YourIdGoesHere.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/YourIdGoesHere.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FParsec/1.1.1": {
+      "sha512": "Wdjf/gCNLEwd+0nUCDh9jAIIcKGwfhRramySTnTcVVgNC6i4Vp5aJklUJJfvFkEZMYNZEDGcI8pCa36/TmwmSg==",
+      "type": "package",
+      "path": "fparsec/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fparsec.1.1.1.nupkg.sha512",
+        "fparsec.nuspec",
+        "lib/net45/FParsec.dll",
+        "lib/net45/FParsec.pdb",
+        "lib/net45/FParsec.xml",
+        "lib/net45/FParsecCS.dll",
+        "lib/net45/FParsecCS.pdb",
+        "lib/net45/FParsecCS.xml",
+        "lib/netstandard2.0/FParsec.dll",
+        "lib/netstandard2.0/FParsec.pdb",
+        "lib/netstandard2.0/FParsec.xml",
+        "lib/netstandard2.0/FParsecCS.dll",
+        "lib/netstandard2.0/FParsecCS.pdb",
+        "lib/netstandard2.0/FParsecCS.xml"
+      ]
+    },
+    "FSharp.Core/5.0.1": {
+      "sha512": "96YN8cgEVSpFhENBs+oXmxskFOQIjdW/pGCtyR+X8URYGbbQk0Fpu56uKHTOl7BEj6bSiZCuE8sjr9FdlXjoUQ==",
+      "type": "package",
+      "path": "fsharp.core/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "contentFiles/any/netstandard2.0/FSharp.Core.xml",
+        "fsharp.core.5.0.1.nupkg.sha512",
+        "fsharp.core.nuspec",
+        "lib/netstandard2.0/FSharp.Core.dll",
+        "lib/netstandard2.0/FSharp.Core.xml",
+        "lib/netstandard2.0/cs/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/de/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/es/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/fr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/it/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ja/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ko/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pl/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ru/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/tr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll"
+      ]
+    },
+    "YourIdGoesHere/1.0.0": {
+      "type": "project",
+      "path": "../ScrabbleBot/ScrabbleBot.fsproj",
+      "msbuildProject": "../ScrabbleBot/ScrabbleBot.fsproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "FSharp.Core >= 5.0.1",
+      "Oxyphenbutazone >= 1.0.6",
+      "ScrabbleServer >= 1.0.7",
+      "YourIdGoesHere >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\O_o\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\_dev\\fsharp assignments\\ScrabbleTemplate\\ScrabbleTemplate\\ScrabbleTemplate.fsproj",
+      "projectName": "ScrabbleTemplate",
+      "projectPath": "C:\\_dev\\fsharp assignments\\ScrabbleTemplate\\ScrabbleTemplate\\ScrabbleTemplate.fsproj",
+      "packagesPath": "C:\\Users\\O_o\\.nuget\\packages\\",
+      "outputPath": "C:\\_dev\\fsharp assignments\\ScrabbleTemplate\\ScrabbleTemplate\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\O_o\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\_dev\\fsharp assignments\\ScrabbleTemplate\\ScrabbleBot\\ScrabbleBot.fsproj": {
+              "projectPath": "C:\\_dev\\fsharp assignments\\ScrabbleTemplate\\ScrabbleBot\\ScrabbleBot.fsproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "FSharp.Core": {
+            "target": "Package",
+            "version": "[5.0.1, )",
+            "generatePathProperty": true
+          },
+          "Oxyphenbutazone": {
+            "target": "Package",
+            "version": "[1.0.6, )",
+            "generatePathProperty": true
+          },
+          "ScrabbleServer": {
+            "target": "Package",
+            "version": "[1.0.7, )",
+            "generatePathProperty": true
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package ScrabbleServer. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "ScrabbleServer",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Oxyphenbutazone. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "Oxyphenbutazone",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}

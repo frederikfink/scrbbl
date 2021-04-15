@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "gyPG0a9go5FVIULeLOXtkMgtlCt5i103f55Fmw9d7zYvGASxo9yWC9ZPtAxI/LfaYlf/HCnFblUf3IUX87Qx5g==",
+  "success": false,
+  "projectFilePath": "C:\\_dev\\fsharp assignments\\ScrabbleTemplate\\ScrabbleBot\\ScrabbleBot.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\O_o\\.nuget\\packages\\fparsec\\1.1.1\\fparsec.1.1.1.nupkg.sha512",
+    "C:\\Users\\O_o\\.nuget\\packages\\fsharp.core\\5.0.1\\fsharp.core.5.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package ScrabbleServer. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
+      "libraryId": "ScrabbleServer",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}
