@@ -8,15 +8,6 @@ module internal ImpParser
     open Eval
     open FParsecLight.TextParser     // Industrial parser-combinator library. Use for Scrabble Project.
 
-    (*
-
-    The interfaces for JParsec and FParsecLight are identical and the implementations should always produce the same output
-    for successful parses although running times and error messages will differ. Please report any inconsistencies.
-
-    *)
-
-    open FParsecLight.TextParser   
-
     let pIntToChar  = pstring "intToChar" <?> "intTochar"
     let pPointValue = pstring "pointValue" <?> "pointValue"
 
