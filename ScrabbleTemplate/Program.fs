@@ -53,7 +53,7 @@ let main argv =
         time (fun () -> ScrabbleUtil.Dictionary.mkDict
                             Dictionary.empty
                             Dictionary.insert
-                            //Dictionary.step
+                            Dictionary.step
 //                            (Some Dictionary.reverse) // Use if you have implemented a Gaddag
                             None                        // Use if you have not implemented a Gaddag
                             words)
