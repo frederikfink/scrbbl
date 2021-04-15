@@ -2,13 +2,13 @@
 
 module internal Dictionary
 
-    type Dict = Temp of unit // Not implemented
+    type Dict = Dict of List<string> // Not implemented
 
     // If you have made a lookup function you may include it here, but it will be generated for you by the project.
 
-    let empty : unit -> Dict = fun _ -> failwith "Not implemented"
-    let insert : string -> Dict -> Dict = fun _ _ -> failwith "Not implemented"
-    let step : char -> Dict -> (bool * Dict) option = fun _ _ -> failwith "Not implemented"
+    let empty () = Dict List.empty
+    let insert s (Dict d) = Dict (s::d)
+    let step s (Dict d) = List.contains s d
 
 
     // Only implement reverse if you have made a Gaddag
