@@ -21,6 +21,7 @@ Group name: &lt;Your group name goes here&gt; (optional since this is hosted in 
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Trie.fs" />
     <Compile Include="MultiSet.fsi" />
     <Compile Include="MultiSet.fs" />
     <Compile Include="FParsecLight.fsi" />
@@ -33,6 +34,8 @@ Group name: &lt;Your group name goes here&gt; (optional since this is hosted in 
     <Compile Include="Scrabble.fsi" />
     <Compile Include="Scrabble.fs" />
   </ItemGroup>
+
+  <ItemGroup />
 
   <ItemGroup>
     <PackageReference Include="FParsec" Version="1.1.1" />
