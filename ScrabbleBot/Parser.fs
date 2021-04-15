@@ -1,7 +1,7 @@
 ﻿// ScrabbleUtil contains the types coord, boardProg, and SquareProg. Remove these from your file before proceeding.
 // Also note that the modulse Ass7 and ImpParser have been merged to one module called Parser.
 
-module internal ImpParser
+module internal Parser
 
     open ScrabbleUtil // NEW. KEEP THIS LINE.
     open System
@@ -143,7 +143,7 @@ module internal ImpParser
     type word   = (char * int) list
     type square = Map<int, word -> int -> int -> int>
 
-    let parseSquareFun (squareProgs:squareProg) : square = Map.map (fun k s -> run stmntParse s |> (fun x -> stmntToSquareFun (getSuccess x))) squareProgs
+    let parseSquareFun (squareProgs:squareProg) : square = Map.map (fun _ s -> run stmntParse s |> (fun x -> stmntToSquareFun (getSuccess x))) squareProgs
 
     type boardFun = coord -> square option
 

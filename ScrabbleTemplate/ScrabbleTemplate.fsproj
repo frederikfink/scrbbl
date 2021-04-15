@@ -19,7 +19,6 @@
 
   <ItemGroup>
     <PackageReference Include="Oxyphenbutazone" Version="1.0.6" />
-    <PackageReference Include="ScrabbleServer" Version="1.0.7" />
   </ItemGroup>
 
   <ItemGroup>

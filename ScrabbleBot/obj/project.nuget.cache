@@ -1,21 +1,32 @@
 {
   "version": 2,
-  "dgSpecHash": "KynmD0peq8jFdxIz6dKloYLni2Lqwq8wJeVfxx3PRtbT3os3PSL+wB0jAXvqoJOdQ6NxsDbK/AOb1Z1S4e+Myg==",
-  "success": false,
+  "dgSpecHash": "iZGFeKTU1adj1TRj4SNVX7A5f37yMpOFfkRFWw8YRK9Dw76s7yJMkkgneLM01koHnepzagdJW9bTmMLyWuTiuw==",
+  "success": true,
   "projectFilePath": "C:\\_dev\\scrbl\\ScrabbleBot\\ScrabbleBot.fsproj",
   "expectedPackageFiles": [
     "C:\\Users\\O_o\\.nuget\\packages\\fparsec\\1.1.1\\fparsec.1.1.1.nupkg.sha512",
-    "C:\\Users\\O_o\\.nuget\\packages\\fsharp.core\\5.0.1\\fsharp.core.5.0.1.nupkg.sha512"
+    "C:\\Users\\O_o\\.nuget\\packages\\fsharp.core\\5.0.1\\fsharp.core.5.0.1.nupkg.sha512",
+    "C:\\Users\\O_o\\.nuget\\packages\\fsharp.quotations.evaluator\\2.1.0\\fsharp.quotations.evaluator.2.1.0.nupkg.sha512",
+    "C:\\Users\\O_o\\.nuget\\packages\\fspickler\\5.3.1\\fspickler.5.3.1.nupkg.sha512",
+    "C:\\Users\\O_o\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\O_o\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\O_o\\.nuget\\packages\\scrabbleserver\\1.0.7\\scrabbleserver.1.0.7.nupkg.sha512",
+    "C:\\Users\\O_o\\.nuget\\packages\\scrabbleutil\\1.0.6\\scrabbleutil.1.0.6.nupkg.sha512",
+    "C:\\Users\\O_o\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\O_o\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\O_o\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
+    "C:\\Users\\O_o\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
+    "C:\\Users\\O_o\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\O_o\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\O_o\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\O_o\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
   ],
   "logs": [
     {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package ScrabbleServer. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org",
-      "libraryId": "ScrabbleServer",
-      "targetGraphs": [
-        "net5.0"
-      ]
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "No Authorization header detected"
     }
   ]
 }

@@ -2,9 +2,7 @@
 
 open ScrabbleUtil
 open ScrabbleUtil.ServerCommunication
-
 open System.IO
-
 open ScrabbleUtil.DebugPrint
 
 // The RegEx module is only used to parse human input. It is not used for the final product.
@@ -45,7 +43,7 @@ module State =
         board         : Parser.board
         dict          : ScrabbleUtil.Dictionary.Dict
         playerNumber  : uint32
-        hand          : MultiSet.MultiSet<uint32>
+        hand          : MultiSet.MS<uint32>
     }
 
     let mkState b d pn h = {board = b; dict = d;  playerNumber = pn; hand = h }
